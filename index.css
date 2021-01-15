@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #0b0d17;
+}
+
+.title {
+  font-size: 5rem;
+  color: #0b0d17;
+  width: 100%; 
+}
+
+header,
+main,
+.footer {
+  max-width: 110rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header,
+.footer {
+  height: 7.3rem;
+}
+
+main {
+  padding: 5rem 0;
+}
+
+footer {
+  background-color: #0b0d17;
+}
+
+.header {
+  background-color: white;
+}
+
+.footer {
+  background-color: #0b0d17;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation__link {
+  list-style: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-left: 3.2rem;
+}
+
+.navigation__link:first-child {
+  margin-left: 0;
+}
+
+.navigation-footer__link {
+  color: white;
+}
+
+.logo-wr {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  padding: 0 5px;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.logo-sub {
+  margin: 0 5px;
+  font-size: 1.3rem;
+  width: 13rem;
+}
+
+.logo-footer {
+  border-color: white;
+  color: white;
+}
+
+.logo-sub-footer {
+  color: white;
+}
+
+.call {
+  fill: white;
+  width: 1.5rem;
+}
+
+.call-white {
+  fill: black;
+}
+
+.main {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  grid-gap: 6rem;
+  min-height: calc(100vh - 7.3rem * 2);
+}
+
+.main__second-side {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  height: 4rem;
+  padding: 0 2.2rem;  
+  background-color: rgb(36, 51, 255);
+  border: 0;
+  border-radius: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button-white {
+  background-color: #fff;
+}
+
+.button:hover {
+  background-color: rgb(30, 42, 207);
+}
+
+.button-white:hover {
+  background-color: #eee;
+}
+
+.button__prepend {
+  margin-right: .5rem;
+}
+
+.button__body {
+  color: white;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 1.4rem;
+}
+
+.button__body-white {
+  color: rgb(0, 0, 0);
+}
+
+.button__append {
+
+}
+
+.application-btn {
+  font-size: 1.8rem;
+  font-weight: bold;
+}

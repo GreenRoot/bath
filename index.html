@@ -3,10 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css?v1">
   <title>Реставрация ванн</title>
 </head>
 <body>
-	Реставрация ванн
+  <header class="header">
+    <div class="logo-wr">
+      <div class="logo">FixVan</div>
+      <div class="logo-sub">Реставрируем ванны с 2001 года</div>
+    </div>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__link">Цены</li>
+        <li class="navigation__link">Фото</li>
+        <li class="navigation__link">Процесс работы</li>
+        <li class="navigation__link">Контакты</li>
+      </ul>
+    </nav>
+    <a href="tel:+79992227770" class="button">
+      <div class="button__prepend">
+        <svg class="call">
+          <use xlink:href="sprite.svg#call"></use>
+        </svg>
+      </div>
+      <span class="button__body">+7 (999) 222-77-70</span>
+    </a>
+  </header>
+  <main class="main">
+    <div class="main__first-side">
+      <h1 class="title">Отреставрируем вашу ванну за&nbsp2&nbspчаса&nbsp не&nbspдорого и с&nbspгарантией</h1>
+      <button class="button">
+        <span class="button__body application-btn">Оставить заявку</span>
+      </button>
+    </div>    
+    <div class="main__second-side">
+      <div class="second-side">
+        <img src="/img/iPhone.png" alt="">
+      </div>      
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="logo-wr">
+        <div class="logo logo-footer">FixVan</div>
+        <div class="logo-sub logo-sub-footer">Реставрируем ванны с 2001 года</div>
+      </div>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__link navigation-footer__link">Цены</li>
+          <li class="navigation__link navigation-footer__link">Фото</li>
+          <li class="navigation__link navigation-footer__link">Процесс работы</li>
+          <li class="navigation__link navigation-footer__link">Контакты</li>
+        </ul>
+      </nav>
+      <a href="tel:+79992227770" class="button button-white">
+        <div class="button__prepend">
+          <svg class="call call-white">
+            <use xlink:href="sprite.svg#call"></use>
+          </svg>
+        </div>
+        <span class="button__body button__body-white">+7 (999) 222-77-70</span>
+      </a>
+    </div>    
+  </footer>
+  <script src="index.js"></script>
 </body>
 </html>
